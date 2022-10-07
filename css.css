@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+    font-size: 50px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.site {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 100px rgb(139, 137, 137);
+  }
+
+#incrementer{
+    font-weight: bold;
+    padding: 15px;
+    width: 150px;
+    margin: 30px;
+    color: whitesmoke;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(99, 11, 11, 0.43);
+    transition: linear 0.1s;
+}
+#incrementer:hover{
+    transform: skewY(3);
+    background-color: rgb(152, 30, 30);
+    box-shadow: 0 5px rgba(105, 8, 8, 0.867);
+    cursor: pointer;
+} 
+
+#incrementer:active{
+    transform: skewY(5);
+    background-color: rgb(152, 30, 30);
+    box-shadow: 0 2px rgba(99, 11, 11, 0.43);
+}
+
+
+#enregistrer{
+    font-weight: bold;
+    padding: 15px;
+    width: 150px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(11, 119, 47, 0.43);
+    transition: linear 0.1s;
+    background: green;
+}
+
+#enregistrer:hover{
+    transform: skewY(3);
+    background-color: rgb(16, 117, 51);
+    box-shadow: 0 5px rgba(8, 133, 64, 0.867);
+    cursor: pointer;
+} 
+
+#enregistrer:active{
+    transform: skewY(5);
+    background-color: rgb(16, 117, 51);
+    box-shadow: 0 2px rgba(11, 119, 47, 0.43);
+}
+h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+#compter{
+    font-size: 50px;
+}
