@@ -33,6 +33,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px rgba(99, 11, 11, 0.43);
     transition: linear 0.1s;
+    outline: none;
 }
 #incrementer:hover{
     transform: skewY(3);
@@ -59,6 +60,7 @@ body{
     box-shadow: 0 5px rgba(11, 119, 47, 0.43);
     transition: linear 0.1s;
     background: green;
+    outline: none;
 }
 
 #enregistrer:hover{
